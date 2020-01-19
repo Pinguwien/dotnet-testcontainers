@@ -19,14 +19,14 @@ pr:
 
 jobs:
   # Run Windows build and tests.
-  - template: template/build.yml
-    parameters:
-      name: BuildAndTestsOnWindows
-      displayName: Windows
-      vmImage: windows-2019
-      dotNetCoreVersion3: $(dotNetCoreVersion3)
-      cakeVersion: $(cakeVersion)
-      testFilter: FullyQualifiedName~DotNet.Testcontainers.Tests.Unit.Windows
+#  - template: template/build.yml
+#    parameters:
+#      name: BuildAndTestsOnWindows
+#      displayName: Windows
+#      vmImage: windows-2019
+#      dotNetCoreVersion3: $(dotNetCoreVersion3)
+#      cakeVersion: $(cakeVersion)
+#      testFilter: FullyQualifiedName~DotNet.Testcontainers.Tests.Unit.Windows
 
   # Run Linux build and tests.
   - template: template/build.yml

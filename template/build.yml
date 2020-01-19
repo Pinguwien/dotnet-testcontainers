@@ -1,7 +1,6 @@
 jobs:
   - job: ${{ parameters.name }}
     displayName: CI build for ${{ parameters.displayName }}
-    condition: eq(variables['Agent.OS'], 'Linux')
 
     pool:
       vmImage: ${{ parameters.vmImage }}
