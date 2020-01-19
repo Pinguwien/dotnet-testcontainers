@@ -1,6 +1,6 @@
 {
   "$schema": "https://xunit.github.io/schema/current/xunit.runner.schema.json",
   "diagnosticMessages": true,
-  "longRunningTestSeconds": 60,
-  "maxParallelThreads": 8
+  "longRunningTestSeconds": 10,
+  "maxParallelThreads": 1
 }
